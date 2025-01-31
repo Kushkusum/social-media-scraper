@@ -4,6 +4,7 @@
 This project is a YouTube data scraper built using Python, Tkinter for the GUI, and the YouTube Data API (v3). It allows users to extract various data from YouTube, including channel details and video comments. The data is saved in a CSV format for further analysis or processing.
 
 
+
 **Features**
 
 **Channel Scraping:**
@@ -20,6 +21,9 @@ Saves the comments to a CSV file.
 Simple Tkinter-based GUI to input YouTube URLs and display results.
 Option to download the scraped data as a CSV file.
 
+
+
+
 **Technologies Used**
 
 Python: Main programming language.
@@ -29,6 +33,8 @@ Tkinter: GUI library for the application interface.
 Google API Client: For interacting with the YouTube Data API (v3).
 
 Pandas: For saving the data into a CSV file.
+
+
 
 
 
@@ -54,6 +60,7 @@ Install the required Python packages:
 
 
 
+
 **API Key Setup**
 
 You need to have a valid YouTube Data API key to interact with the YouTube API. To set up the API key:
@@ -67,6 +74,8 @@ Get your API key from the Credentials section.
 Create a .env file in the project root directory and add the following line:
 
     YOUTUBE_API_KEY=your-api-key-here
+
+
 
 
 
@@ -87,7 +96,10 @@ for Example:
 After scraping the data, you will have the option to download the results as a CSV file.
 
 
+
+
 **Limitations**
+
 Followers/Following Data: Currently, the scraper does not support scraping followers or following data due to restrictions in the YouTube API. YouTube's API limits the available data, and follower/following information is not publicly accessible through the API.
 
 
